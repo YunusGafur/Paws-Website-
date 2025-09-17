@@ -10,10 +10,7 @@
 </head>
 <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
             <div class="container">
-                <a class="navbar-brand d-flex align-items-center fw-bold" href="#">
-                    <span class="me-2" style="font-size: 1.5rem; color: #7b2ff2;">&#128062;</span>
-                    Paws & Hearts
-                </a>
+                <a class="navbar-brand d-flex align-items-center fw-bold" href="#"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -39,24 +36,74 @@
 
 
         <div class="container py-5">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-lg-6 text-white">
-                    <h1 class="fw-bold display-4 mb-3">Find Your Perfect<br>Companion</h1>
-                    <p class="lead mb-4">Every pet deserves a loving home. Help us connect abandoned animals with caring families.</p>
-                    <div class="d-flex gap-3">
-                        <a href="#" class="btn btn-light text-primary fw-semibold px-4 py-2">Adopt Now</a>
-                        <a href="#" class="btn btn-outline-light fw-semibold px-4 py-2">Learn More</a>
+     <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6 text-white">
+                        <h1 class="fw-bold mb-3" style="font-size:2.5rem;">Find Your Perfect Companion</h1>
+                        <p class="mb-4">Every pet deserves a loving home. Help us connect abandoned animals with caring families.</p>
+                        <a href="#featured" class="btn btn-light text-primary fw-semibold me-2">Explore Pets</a>
                     </div>
-                </div>
-                <div class="col-lg-5 mt-5 mt-lg-0 d-flex justify-content-center">
-                    <div class="rounded-4 overflow-hidden shadow-lg" style="background: #fff1;">
-                        <img src="splash-image.jpg" alt="Dog and Cat" class="img-fluid" style="object-fit: cover; width: 100%; max-width: 420px; height: 320px;">
+                    <div class="col-md-6 text-center mt-4 mt-md-0">
+                        <img src="splash-image.jpg" alt="Dog and Cat" class="rounded-4 shadow" style="max-width:350px; width:100%; height:240px; object-fit:cover;">
                     </div>
-                </div>
             </div>
         </div>
+            <!-- Featured Pets Section -->
+            <div class="container my-5" id="featured">
+                <h2 class="fw-bold text-center mb-2">Featured Pets</h2>
+                <p class="text-center mb-5">These adorable animals are looking for their forever homes. Could one of them be perfect for your family?</p>
+                <div class="row g-4 justify-content-center">
+             <div class="col-md-4">
+         <div class="card h-100 border-0 shadow-sm">
+ <img src="featured/puppy.jpg" class="card-img-top rounded-3" alt="Buddy" style="object-fit:cover; height:200px;">
+  <div class="card-body">
+ <h5 class="fw-bold">Buddy</h5>
+ <div class="small">Energetic and friendly, loves playing fetch.</div>
+                    </div>
+                 </div>
+               </div>
+   <div class="col-md-4">
+      <div class="card h-100 border-0 shadow-sm">
+       <img src="featured/kitty01.jpg" class="card-img-top rounded-3" alt="Luna" style="object-fit:cover; height:200px;">
+          <div class="card-body">
+  <h5 class="fw-bold">Luna</h5>
+                       <div class="small text-muted mb-2">3 years • Persian • Female</div>
+                     <div class="small">Calm and affectionate, perfect for a quiet home.</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="card h-100 border-0 shadow-sm">
+                                                    <img src="featured/kitty02.jpg" class="card-img-top rounded-3" alt="Milo" style="object-fit:cover; height:200px;">
+                                                    <div class="card-body">
+              <h5 class="fw-bold">Milo</h5>
+                      <div class="small text-muted mb-2">6 mo • Tabby • Male</div>
+                                                        <div class="small">Playful kitten who loves toys and climbing.</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                </div>
+            </div>
 
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+            <style>
+                html {
+                    scroll-behavior: smooth;
+                }
+                #featured {
+                    scroll-margin-top: 90px;
+                }
+            </style>
+                            <style>
+                                html {
+                                    scroll-behavior: smooth;
+                                }
+                                #featured {
+                                    scroll-margin-top: 80px;
+                                }
+                                .card-img-top {
+                                    background: #f8f9fa;
+                                }
+                            </style>
 </body>
 </html>
